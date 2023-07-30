@@ -1,14 +1,12 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 
-import CarouselLanding from './components/CarouselLanding/CarouselLanding';
-import Header from './components/Header/Header';
+import WspButton from './components/WspButton/WspButton';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <CarouselLanding/>
+      <WspButton />
     </div>
   );
 }
