@@ -36,7 +36,7 @@ function CarouselLanding() {
             text: "Calidad y precisión en la ingeniería de detalle."
         }]
     return (
-        <Carousel controls={false} touch={false} >
+        <Carousel controls={false} touch={false} fade>
             {carousel.map((img, index) => (
                 <Carousel.Item key={index}>
                     <img
