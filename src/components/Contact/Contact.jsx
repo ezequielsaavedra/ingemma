@@ -1,43 +1,45 @@
 import "./Contact.css";
+import { Container, Row, Col } from "react-bootstrap";
+import React from "react";
 
 function Contact() {
   return (
-    <div className="containerContact">
+    <Container className="containerContact">
       <form>
-        <div className="rowContact1">
+        <Row className="rowContact1">
           <h2>Contáctanos</h2>
-          <div className="row rowContact2">
-            <div className="col-xl-4 col-md-8 col-sm-12 colContact">
+          <Row className="rowContact2">
+            <Col sm={12} md={8} xl={4} className="colContact">
               <label>Nombre y apellido</label>
               <input
                 type="text"
                 placeholder="Escribe aqui tu nombre y apellido"
                 id="nombre"
               />
-            </div>
-            <div className="col-xl-4 col-md-8 col-sm-12 colContact">
+            </Col>
+            <Col sm={12} md={8} xl={4} className="colContact">
               <label>Email</label>
               <input
                 type="email"
                 placeholder="Escribe aqui tu email"
                 id="email"
               />
-            </div>
-          </div>
-          <div className="row rowContact2">
-            <div className="col-xl-8 col-md-8 col-sm-12 colContact">
+            </Col>
+          </Row>
+          <Row className="rowContact3">
+            <Col sm={12} md={8} xl={8} className="colContact">
               <label>Tu consulta</label>
               <input
                 type="text"
                 placeholder="Escribe aqui tu consulta"
                 id="consulta"
               />
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Row>
         <input type="submit" />
       </form>
-    </div>
+    </Container>
   );
 }
 

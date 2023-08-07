@@ -1,7 +1,6 @@
 .containerClients {
-  margin: 0px;
   padding: 10px 0px 10px 0px;
-  background-color: white;
+  background-color: white;;
 }
 
 .rowClients {
@@ -10,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   vertical-align: middle;
+  width: 100%;
 }
 
 .colClients {

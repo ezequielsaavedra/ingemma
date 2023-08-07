@@ -1,4 +1,6 @@
 import "./Services.css";
+import { Container, Row, Col } from "react-bootstrap";
+import React from "react";
 import serviceOilAndGas from "../../img/serviceOilAndGas.png";
 import serviceCivil from "../../img/serviceCivil.png";
 import serviceMetalmecanica from "../../img/serviceMetalmecanica.png";
@@ -6,8 +8,8 @@ import serviceArquitectura from "../../img/serviceArquitectura.png";
 
 function Services() {
   return (
-    <div className="containerServices">
-      <div>
+    <Container className="containerServices">
+      <Row>
         <h2>Servicios</h2>
         <p>
           En Ingemma, ofrecemos una amplia gama de servicios especializados y
@@ -15,9 +17,9 @@ function Services() {
           clientes en los campos de Oil & Gas, Civil, Metalmecánica y
           Arquitectura.
         </p>
-      </div>
-      <div className="rowServices">
-        <div className="col-xl-3 col-md-6 col-sm-12 colServices">
+      </Row>
+      <Row className="rowServices">
+        <Col sm={10} md={5} xl={2} className="colServices">
           <img src={serviceOilAndGas} alt="Servicio Oil & Gas" />
           <h3>Oil & Gas</h3>
           <ul>
@@ -30,8 +32,8 @@ function Services() {
             <li>Planos conforme a obra.</li>
             <li>Isométricos constructivos y maquetas 3D.</li>
           </ul>
-        </div>
-        <div className="col-xl-3 col-md-6 col-sm-12 colServices">
+        </Col>
+        <Col sm={10} md={5} xl={2} className="colServices">
           <img src={serviceCivil} alt="Servicio Civil" />
           <h3>Civil</h3>
           <ul>
@@ -44,8 +46,8 @@ function Services() {
             <li>Relevamiento en campo.</li>
             <li>Planos conforme a obra.</li>
           </ul>
-        </div>
-        <div className="col-xl-3 col-md-6 col-sm-12 colServices">
+        </Col>
+        <Col sm={10} md={5} xl={2} className="colServices">
           <img src={serviceArquitectura} alt="Servicio Arquitectura" />
           <h3>Arquitectura</h3>
           <ul>
@@ -55,8 +57,8 @@ function Services() {
             <li>Planos constructivos.</li>
             <li>Documentación y gestión municipal.</li>
           </ul>
-        </div>
-        <div className="col-xl-3 col-md-6 col-sm-12 colServices">
+        </Col>
+        <Col sm={10} md={5} xl={2} className="colServices">
           <img src={serviceMetalmecanica} alt="Servicio Metalmecanica" />
           <h3>Metalmecánica</h3>
           <ul>
@@ -65,9 +67,9 @@ function Services() {
             <li>Planos constructivos.</li>
             <li>Modelados 3D.</li>
           </ul>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

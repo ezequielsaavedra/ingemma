@@ -1,16 +1,6 @@
 .containerContact {
-  margin: 0px;
   padding: 10px 0px 10px 0px;
   background-color: darkblue;
-}
-
-.rowContact2 {
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-  /* justify-content: space-between; */
-  vertical-align: middle;
 }
 
 .rowContact1 h2 {
@@ -25,14 +15,34 @@
   color: #ffff;
 }
 
+.rowContact2 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}  
+
 .rowContact2 input {
   margin: 0px 0px 10px 0px;
   padding: 5px;
   font-size: 1.25rem;
-  /* margin-bottom: 10px; */
-  /* width: 100%; */
+}
+
+.rowContact3 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}  
+
+.rowContact3 input {
+  margin: 0px 0px 10px 0px;
+  padding: 5px;
+  font-size: 1.25rem;
+  height: 8rem;
 }
 
 .colContact input {
-  /* width: 100%; */
+  width: 100%;
+  vertical-align: text-top;
 }
