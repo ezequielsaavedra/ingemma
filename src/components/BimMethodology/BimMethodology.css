@@ -1,0 +1,33 @@
+.containerBim {
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
+  background-color: darkblue;
+}
+
+.containerBim h2 {
+  font-size: 3.75rem;
+  color: #dc0c62;
+  text-shadow: 1px 2px 2px black;
+}
+
+.containerBim p {
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.containerBim input {
+  font-size: 1.25;
+}
+
+.detalleBim1 {
+  display: inline;
+  font-weight: bold;
+}
+
+.detalleBim2 {
+  display: inline;
+}
+
+.detalleBim3 {
+  margin: 0px;
+}

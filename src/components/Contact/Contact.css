@@ -1,0 +1,38 @@
+.containerContact {
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
+  background-color: darkblue;
+}
+
+.rowContact2 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  vertical-align: middle;
+}
+
+.rowContact1 h2 {
+  font-size: 3.75rem;
+  color: #ffff;
+  text-shadow: 1px 2px 2px gray;
+}
+
+.rowContact1 label {
+  display: block;
+  font-size: 1.25rem;
+  color: #ffff;
+}
+
+.rowContact2 input {
+  margin: 0px 0px 10px 0px;
+  padding: 5px;
+  font-size: 1.25rem;
+  /* margin-bottom: 10px; */
+  /* width: 100%; */
+}
+
+.colContact input {
+  /* width: 100%; */
+}

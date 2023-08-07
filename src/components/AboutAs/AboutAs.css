@@ -1,0 +1,61 @@
+.containerAboutAs {
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
+  background-color: #ffff;
+}
+
+.rowAboutAs1 h2 {
+  font-size: 3.75rem;
+  color: #0c1444;
+  text-shadow: 1px 2px 2px gray;
+}
+
+.rowAboutAs1 p {
+  color: #575656;
+  font-size: 1.5rem;
+}
+
+.rowAboutAs2 {
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.colAboutAs {
+  display: inline;
+  width: 100%;
+}
+
+.colAboutAs h3 {
+  color: #9e1062;
+  font-size: 2.25rem;
+  text-shadow: 1px 2px 2px gray;
+}
+
+.colAboutAs p {
+  color: #575656;
+  font-size: 1.125rem;
+}
+
+.colAboutAs ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    /* width: min-content; */
+}
+
+.colAboutAs ul li {
+  color: #575656;
+  font-size: 1.125rem;
+}
+
+.detalleAboutAs1 {
+  display: inline;
+  font-weight: bold;
+}
+
+.detalleAboutAs2 {
+  display: inline;
+}

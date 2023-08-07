@@ -1,0 +1,24 @@
+.containerPortfolio {
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+      background-color: darkblue;
+}
+
+.containerPortfolio h2 {
+    font-size: 3.75rem;
+    color: #DC0C62;
+    text-shadow: 1px 2px 2px black;
+}
+
+.containerPortfolio p {
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.rowPortfolio {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
