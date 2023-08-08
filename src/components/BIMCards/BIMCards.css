@@ -1,0 +1,10 @@
+.cardsText{
+    text-align: start;
+}
+
+.bimCards{
+    height: 27rem;
+    max-width: 27rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(240, 235, 235);
+}

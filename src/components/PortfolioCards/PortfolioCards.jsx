@@ -122,7 +122,6 @@ function PortfolioCards() {
                         <Card.Img variant="top" src={proyecto.img6} />
                     </Card>) : null}
                 </CardGroup>
-
             ))}
         </>
     )

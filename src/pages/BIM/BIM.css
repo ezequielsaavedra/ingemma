@@ -1,0 +1,5 @@
+.imgBackground{
+    background-image: url("../../img/bimBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

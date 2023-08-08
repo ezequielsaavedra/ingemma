@@ -1,6 +1,7 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 
+import BIM from './pages/BIM/BIM';
 import Footer from './components/Footer/Footer';
 import Header from "./components/Header/Header"
 import Home from "./pages/Home/Home"
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       <Header/>
       {/* <Home/> */}
-      <Portfolio/>
+      {/* <Portfolio/> */}
+      <BIM/>
       <WspButton />
       <Footer/>
     </div>
