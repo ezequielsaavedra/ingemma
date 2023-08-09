@@ -10,12 +10,24 @@ function App() {
   return (
     <div className="App">
       <main>
-        <AboutAs />
-        <BimMethodology />
-        <Services />
-        <Portfolio />
-        <Clients />
-        <Contact />
+        <div className="componentAboutAs">
+          <AboutAs />
+        </div>
+        <div className="componentBimMethodology">
+          <BimMethodology />
+        </div>
+        <div className="componentServices">
+          <Services />
+        </div>
+        <div className="componentPortfolio">
+          <Portfolio />
+        </div>
+        <div className="componentClients">
+          <Clients />
+        </div>
+        <div className="componentContact">
+          <Contact />
+        </div>
       </main>
     </div>
   );

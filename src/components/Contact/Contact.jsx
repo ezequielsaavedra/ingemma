@@ -9,7 +9,7 @@ function Contact() {
         <Row className="rowContact1">
           <h2>Contáctanos</h2>
           <Row className="rowContact2">
-            <Col sm={12} md={8} xl={4} className="colContact">
+            <Col sm={12} md={12} xl={6} className="colContact">
               <label>Nombre y apellido</label>
               <input
                 type="text"
@@ -17,7 +17,7 @@ function Contact() {
                 id="nombre"
               />
             </Col>
-            <Col sm={12} md={8} xl={4} className="colContact">
+            <Col sm={12} md={12} xl={6} className="colContact">
               <label>Email</label>
               <input
                 type="email"
@@ -27,7 +27,7 @@ function Contact() {
             </Col>
           </Row>
           <Row className="rowContact3">
-            <Col sm={12} md={8} xl={8} className="colContact">
+            <Col sm={12} md={12} xl={12} className="colContact">
               <label>Tu consulta</label>
               <input
                 type="text"
@@ -37,7 +37,7 @@ function Contact() {
             </Col>
           </Row>
         </Row>
-        <input type="submit" />
+        <input className="botonEnviar" type="button" value="Enviar"></input>
       </form>
     </Container>
   );

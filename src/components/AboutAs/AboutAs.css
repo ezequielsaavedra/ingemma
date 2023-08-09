@@ -1,10 +1,14 @@
 .containerAboutAs {
   margin: 0px;
   padding: 10px 0px 10px 0px;
-  background-color: #ffff;
+}
+
+.rowAboutAs1 {
+  margin-bottom: 100px;
 }
 
 .rowAboutAs1 h2 {
+  margin-bottom: 50px;
   font-size: 3.75rem;
   color: #0c1444;
   text-shadow: 1px 2px 2px gray;
@@ -13,6 +17,15 @@
 .rowAboutAs1 p {
   color: #575656;
   font-size: 1.5rem;
+}
+
+.detalleAboutAs1 {
+  display: inline;
+  font-weight: bold;
+}
+
+.detalleAboutAs2 {
+  display: inline;
 }
 
 .rowAboutAs2 {
@@ -24,11 +37,19 @@
 }
 
 .colAboutAs {
-  display: inline;
-  width: 100%;
+  background-color: #f6f6f6;
+  box-shadow: 5px 5px 15px gray;
+  border-bottom: 6px solid #9e1062;
+}
+
+.colAboutAs img {
+  position: relative;
+  top: -40px;
 }
 
 .colAboutAs h3 {
+  position: relative;
+  top: -20px;
   color: #9e1062;
   font-size: 2.25rem;
   text-shadow: 1px 2px 2px gray;
@@ -40,22 +61,12 @@
 }
 
 .colAboutAs ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    /* width: min-content; */
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .colAboutAs ul li {
   color: #575656;
   font-size: 1.125rem;
-}
-
-.detalleAboutAs1 {
-  display: inline;
-  font-weight: bold;
-}
-
-.detalleAboutAs2 {
-  display: inline;
 }

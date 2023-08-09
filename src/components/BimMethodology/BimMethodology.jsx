@@ -29,7 +29,7 @@ function BimMethodology() {
             Descubre cómo nuestra experiencia en la metodología puede impulsar
             tu proyecto hacia el éxito.
           </p>
-          <button>Quiero saber mas</button>
+          <input className="botonSaberMas" type="button" value="Quiero saber mas"></input>
         </Col>
       </Row>
     </Container>

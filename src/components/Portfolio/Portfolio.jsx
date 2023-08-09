@@ -104,9 +104,7 @@ function Portfolio() {
           </Carousel>
         </Col>
       </Row>
-      <Row>
-        <button>Ver mas</button>
-      </Row>
+      <input className="botonVerMas" type="button" value="Ver más"></input>
     </Container>
   );
 }

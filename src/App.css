@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.componentAboutAs {
+  padding-top: 100px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.componentBimMethodology {
+  padding-top: 100px;
+  background-color: darkblue;
+  width: 100%;
+}
+
+.componentServices {
+  padding-top: 100px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.componentPortfolio {
+  padding-top: 100px;
+  background-color: darkblue;
+  width: 100%;
+}
+
+.componentClients {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.componentContact {
+  padding-top: 100px;
+  background-color: darkblue;
+  width: 100%;
+}

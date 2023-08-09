@@ -1,6 +1,5 @@
 .containerContact {
   padding: 10px 0px 10px 0px;
-  background-color: darkblue;
 }
 
 .rowContact1 h2 {
@@ -16,11 +15,11 @@
 }
 
 .rowContact2 {
-  margin: 0px;
+  margin: 5px;
   padding: 0px;
   display: flex;
   justify-content: center;
-}  
+}
 
 .rowContact2 input {
   margin: 0px 0px 10px 0px;
@@ -29,11 +28,11 @@
 }
 
 .rowContact3 {
-  margin: 0px;
+  margin: 5px;
   padding: 0px;
   display: flex;
   justify-content: center;
-}  
+}
 
 .rowContact3 input {
   margin: 0px 0px 10px 0px;
@@ -45,4 +44,15 @@
 .colContact input {
   width: 100%;
   vertical-align: text-top;
+}
+
+.botonEnviar {
+  margin: 10px 0px 10px 0px;
+  font-size: 1.25rem;
+  color: white;
+  background-color: #DC0C62;
+  padding: 10px 100px 10px 100px;
+  /* opacity: 0.5; */
+  border: 2px solid red;
+  border-radius: 1px;
 }

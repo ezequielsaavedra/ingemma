@@ -9,17 +9,17 @@ import serviceArquitectura from "../../img/serviceArquitectura.png";
 function Services() {
   return (
     <Container className="containerServices">
-      <Row>
-        <h2>Servicios</h2>
-        <p>
-          En Ingemma, ofrecemos una amplia gama de servicios especializados y
-          multidisciplinarios para satisfacer aquellas necesidades de nuestros
-          clientes en los campos de Oil & Gas, Civil, Metalmecánica y
-          Arquitectura.
-        </p>
-      </Row>
+      <h2>Servicios</h2>
+      <p className="detalleServices1">En </p>
+      <p className="detalleServices2">Ingemma</p>
+      <p className="detalleServices1">
+        , ofrecemos una amplia gama de servicios especializados y
+        multidisciplinarios para satisfacer aquellas necesidades de nuestros
+        clientes en los campos de Oil & Gas, Civil, Metalmecánica y
+        Arquitectura.
+      </p>
       <Row className="rowServices">
-        <Col sm={10} md={5} xl={2} className="colServices">
+        <Col sm={12} md={6} xl={3} className="colServices">
           <img src={serviceOilAndGas} alt="Servicio Oil & Gas" />
           <h3>Oil & Gas</h3>
           <ul>
@@ -33,7 +33,7 @@ function Services() {
             <li>Isométricos constructivos y maquetas 3D.</li>
           </ul>
         </Col>
-        <Col sm={10} md={5} xl={2} className="colServices">
+        <Col sm={12} md={6} xl={3} className="colServices">
           <img src={serviceCivil} alt="Servicio Civil" />
           <h3>Civil</h3>
           <ul>
@@ -47,7 +47,7 @@ function Services() {
             <li>Planos conforme a obra.</li>
           </ul>
         </Col>
-        <Col sm={10} md={5} xl={2} className="colServices">
+        <Col sm={12} md={6} xl={3} className="colServices">
           <img src={serviceArquitectura} alt="Servicio Arquitectura" />
           <h3>Arquitectura</h3>
           <ul>
@@ -58,7 +58,7 @@ function Services() {
             <li>Documentación y gestión municipal.</li>
           </ul>
         </Col>
-        <Col sm={10} md={5} xl={2} className="colServices">
+        <Col sm={12} md={6} xl={3} className="colServices">
           <img src={serviceMetalmecanica} alt="Servicio Metalmecanica" />
           <h3>Metalmecánica</h3>
           <ul>

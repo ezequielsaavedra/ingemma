@@ -1,10 +1,9 @@
 .containerServices {
-  margin: 0px;
   padding: 10px 0px 10px 0px;
-  background-color: #ffff;
 }
 
 .containerServices h2 {
+  margin-bottom: 50px;
   color: #0c1444;
   font-size: 3.75rem;
   text-shadow: 1px 2px 2px gray;
@@ -13,6 +12,15 @@
 .containerServices p {
   color: #575656;
   font-size: 1.5rem;
+}
+
+.detalleServices1 {
+  display: inline;
+}
+
+.detalleServices2 {
+  display: inline;
+  font-weight: bold;
 }
 
 .rowServices {
@@ -25,22 +33,29 @@
 
 .colServices {
   margin: 0px;
-  padding: 0px;
-  width: 100%;
+  padding: 80px 10px 0px 10px;
 }
 
 .colServices img {
   width: 294px;
   height: 238px;
+  box-shadow: 15px 15px 15px gray;
 }
 
 .colServices h3 {
   color: #0c1444;
+  padding-top: 80px;
   font-size: 2.5rem;
   text-shadow: 1px 2px 2px gray;
 }
 
-.colServices li {
+.colServices ul {
+  margin-bottom: 100px;
+  padding-top: 40px;
+}
+
+.colServices ul li {
   color: #575656;
   font-size: 1.25rem;
+  text-align: left;
 }
