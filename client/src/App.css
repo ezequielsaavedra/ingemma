@@ -44,8 +44,8 @@
 }
 
 .componentBimMethodology {
-  padding-top: 100px;
-  background-color: darkblue;
+  background-color: #0c1444;
+  /* background-image: url("./img/fondoBim.png"); */
   width: 100%;
 }
 
@@ -57,7 +57,7 @@
 
 .componentPortfolio {
   padding-top: 100px;
-  background-color: darkblue;
+  background-color: #0c1444;
   width: 100%;
 }
 
@@ -68,6 +68,6 @@
 
 .componentContact {
   padding-top: 100px;
-  background-color: darkblue;
+  background-color: #0c1444;
   width: 100%;
 }

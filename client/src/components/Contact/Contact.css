@@ -4,8 +4,10 @@
 
 .rowContact1 h2 {
   font-size: 3.75rem;
-  color: #ffff;
-  text-shadow: 1px 2px 2px gray;
+  /* color: #ffff; */
+  color: #dc0c62;
+  /* text-shadow: 1px 2px 2px gray; */
+  text-shadow: 1px 2px 2px black;
 }
 
 .rowContact1 label {
@@ -34,11 +36,12 @@
   justify-content: center;
 }
 
-.rowContact3 input {
+.rowContact3 textarea {
   margin: 0px 0px 10px 0px;
   padding: 5px;
   font-size: 1.25rem;
   height: 8rem;
+  width: 100%;
 }
 
 .colContact input {
@@ -50,9 +53,16 @@
   margin: 10px 0px 10px 0px;
   font-size: 1.25rem;
   color: white;
-  background-color: #DC0C62;
+  background-color: #dc0c62;
   padding: 10px 100px 10px 100px;
   /* opacity: 0.5; */
   border: 2px solid red;
   border-radius: 1px;
+}
+
+.sendingEmail {
+  font-size: 1.5rem;
+  color: #ffff;
+  text-shadow: 1px 2px 2px gray;
+  padding-bottom: 50px;
 }

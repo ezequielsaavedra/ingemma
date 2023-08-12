@@ -5,6 +5,7 @@ import Services from "./components/Services/Services";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Clients from "./components/Clients/Clients";
+// import fondoBimMethodology from "./img/fondoBim.png";
 
 function App() {
   return (
