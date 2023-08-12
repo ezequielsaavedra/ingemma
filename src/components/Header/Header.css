@@ -1,0 +1,19 @@
+.navbar {
+    z-index: 9999;
+}
+.navBar{
+    margin-right:6rem;
+}
+
+.headerBrand{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.headerText{
+    color: #0C1444;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}

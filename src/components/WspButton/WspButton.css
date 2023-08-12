@@ -1,0 +1,15 @@
+.wspButton{
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    position: fixed;
+    bottom: 3.5vh;
+    right: 3.5vw;
+    z-index: 999;
+}
+
+.icon{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}

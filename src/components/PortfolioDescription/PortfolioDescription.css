@@ -1,0 +1,43 @@
+.portfolioTitle{
+    color: #DC0C62;
+}
+
+.card {
+    border: 0px;
+}
+
+.card-img{
+    border-radius: 0px;
+}
+
+.portfolioDescription{
+    font-size: 24px;
+    text-align: start;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolioTitle{
+        font-size: medium;
+    }
+    .portfolioDescription{
+        font-size: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .portfolioTitle{
+        font-size: 30px;
+    }
+    .portfolioDescription{
+        font-size: medium;
+    }   
+}
+
+@media screen and (min-width: 1201px) {
+    .portfolioTitle{
+        font-size: 60px;
+    }
+    .portfolioDescription{
+        font-size: 24px;
+    }    
+}
