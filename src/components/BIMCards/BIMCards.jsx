@@ -8,8 +8,8 @@ import React from 'react'
 function BIMCards() {
     return (
         <Container className="mt-5" >
-            <Row className="d-flex  justify-content-around">
-                <Col sm="10" md="6">
+            <Row className="d-flex  justify-content-between">
+                <Col sm="10" md="6" d-flex justify-content-center>
                     <Card className="bimCards mb-5">
                         <Card.Body >
                             <Card.Title className="mb-5 mt-3">Proceso</Card.Title>
@@ -20,7 +20,7 @@ function BIMCards() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm="10" md="6">
+                <Col sm="10" md="6" className="d-flex justify-content-center" >
                     <Card className="bimCards mb-5">
                         <Card.Body>
                             <Card.Title className="mb-4 mt-3">Beneficios</Card.Title>

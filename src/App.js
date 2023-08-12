@@ -11,12 +11,14 @@ import WspButton from './components/WspButton/WspButton';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      {/* <Home/> */}
-      {/* <Portfolio/> */}
-      <BIM/>
+      <Header />
+      <div className="appContainer">
+        <Home />
+        <Portfolio />
+        <BIM />
+      </div>
       <WspButton />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
