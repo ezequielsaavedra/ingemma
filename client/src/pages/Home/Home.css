@@ -1,0 +1,32 @@
+.componentAboutAs {
+    padding-top: 100px;
+    background-color: #ffffff;
+  }
+  
+  .componentBimMethodology {
+    /* background-color: #0c1444; */
+    background-image: url("../../img//fondoBim.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+  }
+  
+  .componentServices {
+    padding-top: 100px;
+    background-color: #ffffff;
+  }
+  
+  .componentPortfolio {
+    padding-top: 100px;
+    background-color: #0c1444;
+  }
+  
+  .componentClients {
+    background-color: #ffffff;
+  }
+  
+  .componentContact {
+    padding-top: 100px;
+    background-color: #0c1444;
+  }
+  

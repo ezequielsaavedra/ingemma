@@ -1,17 +1,58 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+const express = require("express");
+const nodemailer = require("nodemailer");
+const dotenv = require("dotenv");
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const app = express();
+dotenv.config();
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
+const config = {
+  nodemailerService: process.env.NODEMAILER_SERVICE,
+  nodemailerPort: process.env.NODEMAILER_PORT,
+  nodemailerUser: process.env.NODEMAILER_USER,
+  nodemailerPassword: process.env.NODEMAILER_PASSWORD,
+};
+
+app.post("/api/form", async (req, res) => {
+  nodemailer.createTestAccount(async (err, account) => {
+    var transporter = nodemailer.createTransport({
+      service: config.nodemailerService,
+      port: config.nodemailerPort,
+      auth: {
+        user: config.nodemailerUser,
+        pass: config.nodemailerPassword,
+      },
+    });
+
+    transporter.sendMail(
+      {
+        from: config.nodemailerUser,
+        to: config.nodemailerUser,
+        subject: `Consulta ${req.body.name}`,
+        html: `
+        <div>   
+        <h1>Datos de la consulta:</h1>
+        <p>Nombre y apellido: ${req.body.name}</p>
+        <p>Email: ${req.body.email}</p>
+        <p>Consulta: ${req.body.consult}</p>
+        </div>
+        `,
+      },
+      (err, info) => {
+        if (err) {
+          return console.log(err);
+        }
+        console.log("Mensaje enviado con exito");
+        res.redirect("/");
+      }
+    );
+  });
+});
+
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+  console.log(`Servidor a la escucha en el puerto ${PORT}`);
+});
