@@ -1,11 +1,9 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 
-import BIM from './pages/BIM/BIM';
 import Footer from './components/Footer/Footer';
 import Header from "./components/Header/Header"
-import Home from "./pages/Home/Home"
-import Portfolio from './pages/Portfolio/Portfolio';
+import Home from './pages/Home/Home';
 import WspButton from './components/WspButton/WspButton';
 
 function App() {
@@ -13,9 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="appContainer">
-        <Home />
-        <Portfolio />
-        <BIM />
+        <Home/>
       </div>
       <WspButton />
       <Footer />
