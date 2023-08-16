@@ -2,13 +2,14 @@ import "./BimMethodology.css";
 
 import { Col, Container, Row } from "react-bootstrap";
 
+import { Link } from 'react-router-dom';
 import React from "react";
 
 function BimMethodology() {
   return (
     <Container className="containerBim">
-      <Row>
-        <Col>
+      <Row className="containerBim2">
+        <Col >
           <h2>Metodología BIM</h2>
           <div className="detalleBimContainer">
             <p className="detalleBim1">Ingemma </p>
@@ -33,7 +34,9 @@ function BimMethodology() {
               tu proyecto hacia el éxito.
             </p>
           </div>
+          <Link to="/BIM">
           <input className="botonSaberMas" type="button" value="Quiero saber mas"></input>
+          </Link>
         </Col>
       </Row>
     </Container>

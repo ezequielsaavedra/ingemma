@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import { Carousel, Col, Container, Row } from "react-bootstrap";
 
+import { Link } from 'react-router-dom';
 import React from "react";
 import portfolioAmpliacionChacras from "../../img/portfolioAmpliacionChacras.png";
 import portfolioAmpliacionTorreon from "../../img/portfolioAmpliacionTorreon.png";
@@ -106,7 +107,9 @@ function Portfolio() {
           </Carousel>
         </Col>
       </Row>
+      <Link to="/portfolio">
       <input className="botonVerMas" type="button" value="Ver más"></input>
+      </Link>
     </Container>
   );
 }

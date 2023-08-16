@@ -33,7 +33,7 @@ function AboutAs() {
         </Col>
       </Row>
       <Row className="rowAboutAs2">
-        <Col sm={10} md={5} xl={3} className="colAboutAs">
+        <Col sm={10} md={4} xl={3} className="colAboutAs">
           <img src={estrella} alt="Estrella" />
           <h3>Mision</h3>
           <p>
@@ -42,7 +42,7 @@ function AboutAs() {
             promoviendo la innovación en la gestión de proyectos industriales.
           </p>
         </Col>
-        <Col sm={10} md={5} xl={3} className="colAboutAs">
+        <Col sm={10} md={4} xl={3} className="colAboutAs">
           <img src={ojo} alt="Ojo" />
           <h3>Visión</h3>
           <p>
@@ -51,7 +51,7 @@ function AboutAs() {
             eficientemente los recursos y garanticen resultados exitosos.
           </p>
         </Col>
-        <Col sm={10} md={5} xl={3} className="colAboutAs">
+        <Col sm={10} md={4} xl={3} className="colAboutAs">
           <img src={corazon} alt="Corazon" />
           <h3>Valores</h3>
           <ul>

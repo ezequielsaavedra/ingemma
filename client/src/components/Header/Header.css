@@ -11,9 +11,10 @@
 }
 
 .headerText{
-    color: #0C1444;
-    font-size: large;
-    font-weight: bold;
+    color: #0C1444 !important;
+    font-size: large !important;
+    font-weight: bold !important;
     margin-top: 2rem;
     margin-left: 2.5rem;
+    text-decoration: none;
 }

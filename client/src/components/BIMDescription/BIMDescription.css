@@ -1,11 +1,11 @@
 .bimCard{
-    background-color: transparent;
+    background-color: transparent !important;
 }
 .bimTitle{
-    color: #DC0C62;
+    color: #DC0C62 !important;
 }
 
-.textContainer{
+.textBIMContainer{
     max-width: 80vw;
     color: white;
     text-align: start;

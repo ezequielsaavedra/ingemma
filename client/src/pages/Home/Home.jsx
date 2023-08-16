@@ -1,34 +1,42 @@
 import "./Home.css"
 
+import React, { useEffect } from 'react';
+
 import AboutAs from "../../components/AboutAs/AboutAs"
 import BimMethodology from "../../components/BimMethodology/BimMethodology"
 import CarouselLanding from '../../components/CarouselLanding/CarouselLanding'
 import Clients from "../../components/Clients/Clients"
 import Contact from "../../components/Contact/Contact"
+import Header from "../../components/Header/Header"
 import Portfolio from "../../components/Portfolio/Portfolio"
-import React from 'react'
 import Services from "../../components/Services/Services"
 
 function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+    }, []);
     return (
         <>
-            <CarouselLanding />
-            <div className="componentAboutAs">
+            <Header />
+            <div id="inicio">
+                <CarouselLanding />
+            </div>
+            <div id="componentAboutAs">
                 <AboutAs />
             </div>
-            <div className="componentBimMethodology">
+            <div id="componentBimMethodology">
                 <BimMethodology />
             </div>
-            <div className="componentServices">
+            <div id="componentServices">
                 <Services />
             </div>
-            <div className="componentPortfolio">
+            <div id="componentPortfolio">
                 <Portfolio />
             </div>
-            <div className="componentClients">
+            <div id="componentClients">
                 <Clients />
             </div>
-            <div className="componentContact">
+            <div id="componentContact">
                 <Contact />
             </div>
         </>
