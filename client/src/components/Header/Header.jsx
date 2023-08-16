@@ -29,6 +29,7 @@ function Header() {
                             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                             placement="start"
                             className="navBar"
+                            scroll={true}
                         >
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="headerText">
