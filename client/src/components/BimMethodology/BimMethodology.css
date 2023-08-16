@@ -1,8 +1,12 @@
 .containerBim {
   margin: 0px;
-  padding: 250px 0px 10px 0px;
+  padding: 250px 0px 10px 0px !important;
   background-color: rgba(12, 20, 68, 0.78);
-  min-width: 100vw;
+  max-width: 100vw !important;
+}
+
+.containerBim2{
+  max-width: 100vw;
 }
 
 .containerBim h2 {

@@ -40,7 +40,7 @@
 }
 
 .carousel-indicators-BIM {
-    position: relative;
+    position: relative !important;
     margin-top: 5rem;
 }
 

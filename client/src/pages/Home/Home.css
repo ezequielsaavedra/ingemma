@@ -1,31 +1,31 @@
-.componentAboutAs {
+#componentAboutAs {
     padding-top: 100px;
     background-color: #ffffff;
   }
   
-  .componentBimMethodology {
-    /* background-color: #0c1444; */
+  #componentBimMethodology {
     background-image: url("../../img//fondoBim.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
+    max-width: 100%;
   }
   
-  .componentServices {
+  #componentServices {
     padding-top: 100px;
     background-color: #ffffff;
   }
   
-  .componentPortfolio {
+  #componentPortfolio {
     padding-top: 100px;
     background-color: #0c1444;
   }
   
-  .componentClients {
+  #componentClients {
     background-color: #ffffff;
   }
   
-  .componentContact {
+  #componentContact {
     padding-top: 100px;
     background-color: #0c1444;
   }
