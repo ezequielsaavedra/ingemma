@@ -9,6 +9,12 @@
   max-width: 100vw;
 }
 
+.containerBim3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .containerBim h2 {
   margin-bottom: 50px;
   font-size: 3.75rem;
@@ -17,7 +23,8 @@
 }
 
 .detalleBimContainer {
-  text-align: start;
+  text-align: justify;
+  max-width: 80%;
 }
 
 .containerBim p {
@@ -27,15 +34,12 @@
 
 .containerBim input {
   font-size: 1.25;
+  
 }
 
 .detalleBim1 {
   display: inline;
-  font-weight: bold;
-}
 
-.detalleBim2 {
-  display: inline;
 }
 
 .detalleBim3 {

@@ -12,10 +12,8 @@ function Services() {
   return (
     <Container className="containerServices">
       <h2>Servicios</h2>
-      <p className="detalleServices1">En </p>
-      <p className="detalleServices2">Ingemma</p>
       <p className="detalleServices1">
-        , ofrecemos una amplia gama de servicios especializados y
+        En Ingemma, ofrecemos una amplia gama de servicios especializados y
         multidisciplinarios para satisfacer aquellas necesidades de nuestros
         clientes en los campos de Oil & Gas, Civil, Metalmecánica y
         Arquitectura.

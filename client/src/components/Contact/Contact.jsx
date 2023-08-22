@@ -71,7 +71,7 @@ const Contact = () => {
           </Row>
           <Row className="rowContact3">
             <Col sm={12} md={12} xl={12} className="colContact">
-              <label>Tu consulta</label>
+              <label>Consulta</label>
               <textarea
                 rows="4"
                 placeholder="Escribe aqui tu consulta"

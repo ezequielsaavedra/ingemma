@@ -1,4 +1,4 @@
-.portfolioTitle{
+.portafolioTitle{
     color: #DC0C62;
 }
 
@@ -10,34 +10,34 @@
     border-radius: 0px;
 }
 
-.portfolioDescription{
+.portafolioDescription{
     font-size: 24px;
     text-align: start;
 }
 
 @media screen and (max-width: 767px) {
-    .portfolioTitle{
+    .portafolioTitle{
         font-size: medium;
     }
-    .portfolioDescription{
+    .portafolioDescription{
         font-size: 0px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-    .portfolioTitle{
+    .portafolioTitle{
         font-size: 30px;
     }
-    .portfolioDescription{
+    .portafolioDescription{
         font-size: medium;
     }   
 }
 
 @media screen and (min-width: 1201px) {
-    .portfolioTitle{
+    .portafolioTitle{
         font-size: 60px;
     }
-    .portfolioDescription{
+    .portafolioDescription{
         font-size: 24px;
     }    
 }

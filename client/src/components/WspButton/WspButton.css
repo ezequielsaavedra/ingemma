@@ -3,9 +3,9 @@
     height: 64px;
     width: 64px;
     position: fixed;
+    z-index: 9999;
     bottom: 3.5vh;
     right: 3.5vw;
-    z-index: 999;
 }
 
 .icon{
@@ -13,3 +13,4 @@
     width: 65px;
     border-radius: 50%;
 }
+

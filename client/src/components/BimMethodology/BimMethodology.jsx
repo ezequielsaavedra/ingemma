@@ -9,33 +9,27 @@ function BimMethodology() {
   return (
     <Container className="containerBim">
       <Row className="containerBim2">
-        <Col >
+        <Col className="containerBim3">
           <h2>Metodología BIM</h2>
           <div className="detalleBimContainer">
-            <p className="detalleBim1">Ingemma </p>
-            <p className="detalleBim2">
-              se destaca por trabajar con metodología{" "}
-            </p>
-            <p className="detalleBim1">BIM </p>
-            <p className="detalleBim2">
+            <p className="detalleBim1">
+              Ingemma
+              se destaca por trabajar con metodología
+              BIM
               (Building Information Modeling), una innovadora metodología que
               transforma la manera en que concebimos, diseñamos, construimos y
               gestionamos proyectos. A través de un enfoque colaborativo y basado
               en datos, integramos de forma inteligente todas las disciplinas del
               proyecto, permitiendo una visualización tridimensional en tiempo
-              real, una{" "}
-            </p>
-            <p className="detalleBim1">
+              real, una
               mejor planificación, optimización de recursos y una mayor eficiencia
               en cada etapa.
-            </p>
-            <p className="detalleBim3">
               Descubre cómo nuestra experiencia en la metodología puede impulsar
               tu proyecto hacia el éxito.
             </p>
           </div>
           <Link to="/BIM">
-          <input className="botonSaberMas" type="button" value="Quiero saber mas"></input>
+            <input className="botonSaberMas" type="button" value="Quiero saber mas"></input>
           </Link>
         </Col>
       </Row>

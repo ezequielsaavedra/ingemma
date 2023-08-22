@@ -1,41 +1,41 @@
-import "./Portfolio.css";
+import "./Portafolio.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 import { Carousel, Col, Container, Row } from "react-bootstrap";
 
 import { Link } from 'react-router-dom';
 import React from "react";
-import portfolioAmpliacionChacras from "../../img/portfolioAmpliacionChacras.png";
-import portfolioAmpliacionTorreon from "../../img/portfolioAmpliacionTorreon.png";
-import portfolioBotter from "../../img/portfolioBotter.png";
-import portfolioCasaCorralitos from "../../img/portfolioCasaCorralitos.png";
-import portfolioEdificioPeru from "../../img/portfolioEdificioPeru.png";
-import portfolioMaschwitz from "../../img/portfolioMaschwitz.png";
+import portafolioAmpliacionChacras from "../../img/portafolioAmpliacionChacras.png";
+import portafolioAmpliacionTorreon from "../../img/portafolioAmpliacionTorreon.png";
+import portafolioBotter from "../../img/portafolioBotter.png";
+import portafolioCasaCorralitos from "../../img/portafolioCasaCorralitos.png";
+import portafolioEdificioPeru from "../../img/portafolioEdificioPeru.png";
+import portafolioMaschwitz from "../../img/portafolioMaschwitz.png";
 
-function Portfolio() {
+function Portafolio() {
   return (
-    <Container className="containerPortfolio">
-      <Row className="rowPortfolio1">
-        <h2>Portfolio</h2>
+    <Container className="containerPortafolio">
+      <Row className="rowPortafolio1">
+        <h2>Portafolio</h2>
         <p>
           Nuestros proyectos construidos son el reflejo de la calidad de
           nuestros servicios en Ingemma. Todos ellos comparten el uso de la
-          Tecnología BIM, que nos permite secuenciar el proceso desde el diseño
+          Metodología BIM, que nos permite secuenciar el proceso desde el diseño
           hasta la construcción, pasando por la ingeniería y la fabricación.
           Nuestros proyectos son multidisciplinares y están categorizados según
           el servicio y sector al que se dirigen, brindando soluciones
           integrales y personalizadas.
         </p>
       </Row>
-      <Row className="rowPortfolio2">
-        <Col>
-          <Carousel indicators={false}>
+      <Row className="rowPortafolio2">
+        <Col sm={10} md={4} xl={3}>
+          <Carousel indicators={false} fade>
             <Carousel.Item>
               <img
                 className="d-block"
                 height={511}
-                src={portfolioMaschwitz}
-                alt="Portfolio Maschwitz"
+                src={portafolioMaschwitz}
+                alt="Portafolio Maschwitz"
               />
               <Carousel.Caption>
                 <h3>Maschwitz</h3>
@@ -45,8 +45,8 @@ function Portfolio() {
               <img
                 className="d-block"
                 height={511}
-                src={portfolioCasaCorralitos}
-                alt="Portfolio Casa Corralitos"
+                src={portafolioCasaCorralitos}
+                alt="Portafolio Casa Corralitos"
               />
               <Carousel.Caption>
                 <h3>Casa Corralitos</h3>
@@ -54,14 +54,14 @@ function Portfolio() {
             </Carousel.Item>
           </Carousel>
         </Col>
-        <Col>
-          <Carousel indicators={false}>
+        <Col sm={10} md={4} xl={3}>
+          <Carousel indicators={false} fade>
             <Carousel.Item>
               <img
                 className="d-block"
                 height={511}
-                src={portfolioEdificioPeru}
-                alt="Portfolio Edificio Peru"
+                src={portafolioEdificioPeru}
+                alt="Portafolio Edificio Peru"
               />
               <Carousel.Caption>
                 <h3>Edificio Peru</h3>
@@ -71,8 +71,8 @@ function Portfolio() {
               <img
                 className="d-block"
                 height={511}
-                src={portfolioBotter}
-                alt="Portfolio Botter"
+                src={portafolioBotter}
+                alt="Portafolio Botter"
               />
               <Carousel.Caption>
                 <h3>Botter</h3>
@@ -80,14 +80,14 @@ function Portfolio() {
             </Carousel.Item>
           </Carousel>
         </Col>
-        <Col>
-          <Carousel indicators={false}>
+        <Col sm={10} md={4} xl={3}>
+          <Carousel indicators={false} fade>
             <Carousel.Item>
               <img
                 className="d-block"
                 height={511}
-                src={portfolioAmpliacionTorreon}
-                alt="Portfolio Ampliacion Torreon"
+                src={portafolioAmpliacionTorreon}
+                alt="Portafolio Ampliacion Torreon"
               />
               <Carousel.Caption>
                 <h3>Ampliacion Torreon</h3>
@@ -97,8 +97,8 @@ function Portfolio() {
               <img
                 className="d-block"
                 height={511}
-                src={portfolioAmpliacionChacras}
-                alt="Portfolio Ampliacion Chacras"
+                src={portafolioAmpliacionChacras}
+                alt="Portafolio Ampliacion Chacras"
               />
               <Carousel.Caption>
                 <h3>Ampliacion Chacras</h3>
@@ -107,11 +107,11 @@ function Portfolio() {
           </Carousel>
         </Col>
       </Row>
-      <Link to="/portfolio">
+      <Link to="/portafolio">
       <input className="botonVerMas" type="button" value="Ver más"></input>
       </Link>
     </Container>
   );
 }
 
-export default Portfolio;
+export default Portafolio;

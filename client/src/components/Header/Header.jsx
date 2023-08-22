@@ -32,7 +32,7 @@ function Header() {
                             scroll={true}
                         >
                             <Offcanvas.Header closeButton>
-                                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="headerText">
+                                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="headerBrand">
                                     <img src={logo} alt="logo"
                                         width="174"
                                         height="47"
@@ -45,7 +45,7 @@ function Header() {
                                     <Nav.Link href="#componentAboutAs" className="headerText" >LA EMPRESA</Nav.Link>
                                     <Nav.Link href="#componentBimMethodology" className="headerText" >METODOLOGÍA BIM</Nav.Link>
                                     <Nav.Link href="#componentServices" className="headerText" >SERVICIOS</Nav.Link>
-                                    <Nav.Link href="#componentPortfolio" className="headerText">PORTFOLIO</Nav.Link>
+                                    <Nav.Link href="#componentPortafolio" className="headerText">PORTAFOLIO</Nav.Link>
                                     <Nav.Link href="#componentContact" className="headerText">CONTACTO</Nav.Link>
                                 </Nav>
                             </Offcanvas.Body>
