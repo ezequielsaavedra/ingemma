@@ -10,6 +10,17 @@
     margin-left: 1rem;
 }
 
+.offcanvas {
+    max-width: 100%;
+}
+
+.offcanvas-header {
+    max-width: 100vw;
+}
+
+.offcanvas-body {
+    padding-right: 0px !important;
+}
 .headerText{
     color: #0C1444 !important;
     font-size: large !important;

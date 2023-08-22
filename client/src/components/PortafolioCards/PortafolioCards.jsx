@@ -1,4 +1,4 @@
-import "./PortfolioCards.css"
+import "./PortafolioCards.css"
 
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
@@ -28,8 +28,8 @@ import obraBotter3 from "../../img/obraBotter3.jpeg"
 import obraBotter4 from "../../img/obraBotter4.jpeg"
 import obraBotter5 from "../../img/obraBotter5.jpeg"
 
-function PortfolioCards() {
-    const portfolioCards = [
+function PortafolioCards() {
+    const portafolioCards = [
         {
             title: "Casa corralitos.",
             descripcion: "Sistema constructivo: EPS.",
@@ -93,9 +93,9 @@ function PortfolioCards() {
 
     return (
         <>
-            {portfolioCards.map((proyecto, index) => (
+            {portafolioCards.map((proyecto, index) => (
                 <CardGroup key={index} className={`d-flex flex-row overflow-x-scroll flex-nowrap ${proyecto.background}`} >
-                    <Card className={`portfolioCard ${proyecto.background}`}>
+                    <Card className={`portafolioCard ${proyecto.background}`}>
                         <Card.Body >
                             <Card.Title className={`cardTitle ${proyecto.textUno}`}>{proyecto.title}</Card.Title>
                             <Card.Text className={`cardText  ${proyecto.textDos}`}>
@@ -103,22 +103,22 @@ function PortfolioCards() {
                             </Card.Text>
                         </Card.Body >
                     </Card>
-                    <Card className={`portfolioCard ${proyecto.background}`}>
+                    <Card className={`portafolioCard ${proyecto.background}`}>
                         <Card.Img variant="top" src={proyecto.img1} />
                     </Card>
-                    <Card className={`portfolioCard ${proyecto.background}`}>
+                    <Card className={`portafolioCard ${proyecto.background}`}>
                         <Card.Img variant="top" src={proyecto.img2} />
                     </Card>
-                    <Card className={`portfolioCard ${proyecto.background}`}>
+                    <Card className={`portafolioCard ${proyecto.background}`}>
                         <Card.Img variant="top" src={proyecto.img3} />
                     </Card>
-                    <Card className={`portfolioCard ${proyecto.background}`}>
+                    <Card className={`portafolioCard ${proyecto.background}`}>
                         <Card.Img variant="top" src={proyecto.img4} />
                     </Card>
-                    {proyecto.img5 ? (<Card className={`portfolioCard ${proyecto.background}`}>
+                    {proyecto.img5 ? (<Card className={`portafolioCard ${proyecto.background}`}>
                         <Card.Img variant="top" src={proyecto.img5} />
                     </Card>) : null}
-                    {proyecto.img6 ? (<Card className={`portfolioCard ${proyecto.background}`}>
+                    {proyecto.img6 ? (<Card className={`portafolioCard ${proyecto.background}`}>
                         <Card.Img variant="top" src={proyecto.img6} />
                     </Card>) : null}
                 </CardGroup>
@@ -127,4 +127,4 @@ function PortfolioCards() {
     )
 }
 
-export default PortfolioCards
+export default PortafolioCards

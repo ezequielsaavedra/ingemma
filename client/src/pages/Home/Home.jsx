@@ -8,7 +8,7 @@ import CarouselLanding from '../../components/CarouselLanding/CarouselLanding'
 import Clients from "../../components/Clients/Clients"
 import Contact from "../../components/Contact/Contact"
 import Header from "../../components/Header/Header"
-import Portfolio from "../../components/Portfolio/Portfolio"
+import Portafolio from "../../components/Portafolio/Portafolio"
 import Services from "../../components/Services/Services"
 
 function Home() {
@@ -30,8 +30,8 @@ function Home() {
             <div id="componentServices">
                 <Services />
             </div>
-            <div id="componentPortfolio">
-                <Portfolio />
+            <div id="componentPortafolio">
+                <Portafolio />
             </div>
             <div id="componentClients">
                 <Clients />
