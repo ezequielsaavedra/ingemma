@@ -7,6 +7,7 @@
   margin: 0px;
   padding: 0px;
   width: 100%;
+
 }
 
 .rowPortafolio1 h2 {
@@ -20,6 +21,7 @@
   margin-bottom: 50px;
   font-size: 1.5rem;
   color: #ffff;
+  text-align: justify;
 }
 
 .rowPortafolio2 {

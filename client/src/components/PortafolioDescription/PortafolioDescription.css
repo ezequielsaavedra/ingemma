@@ -1,5 +1,7 @@
 .portafolioTitle{
     color: #DC0C62;
+    font-size: 4rem;
+    min-width: 100%;
 }
 
 .card {
@@ -11,33 +13,20 @@
 }
 
 .portafolioDescription{
-    font-size: 24px;
-    text-align: start;
+    font-size: 1.25rem;
+    text-align: justify;
+    max-width: 87%;
 }
 
 @media screen and (max-width: 767px) {
-    .portafolioTitle{
-        font-size: medium;
-    }
-    .portafolioDescription{
-        font-size: 0px;
+    .cardImageBackground{
+        min-height: 100vh;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-    .portafolioTitle{
-        font-size: 30px;
+    .cardImageBackground{
+        min-height: 70vh;
     }
-    .portafolioDescription{
-        font-size: medium;
-    }   
 }
 
-@media screen and (min-width: 1201px) {
-    .portafolioTitle{
-        font-size: 60px;
-    }
-    .portafolioDescription{
-        font-size: 24px;
-    }    
-}

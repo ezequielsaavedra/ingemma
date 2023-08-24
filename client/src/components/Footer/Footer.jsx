@@ -20,7 +20,7 @@ function Footer() {
                     <Col sm={10} md={4}>
                         <Nav className="me-auto my-2 my-lg-0 justify-content-center justify-content-lg-start flex-grow-1 pe-3">
                             <Nav.Item>
-                                <Nav.Link href="#action2" className="footerBrand">
+                                <Nav.Link className="footerBrand">
                                     <img src={logo} alt="logo"
                                         className="d-inline-block " />
                                 </Nav.Link>

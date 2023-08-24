@@ -3,11 +3,13 @@
 }
 .bimTitle{
     color: #DC0C62 !important;
+    font-size: 4rem;
 }
 
 .textBIMContainer{
     max-width: 80vw;
     color: white;
-    text-align: start;
-    margin: 3rem;
+    text-align: justify;
+    margin: 7rem;
+    font-size: 1.25rem;
 }

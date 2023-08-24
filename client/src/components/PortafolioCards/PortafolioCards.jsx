@@ -1,8 +1,10 @@
 import "./PortafolioCards.css"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 import React from 'react';
+import Slider from 'react-slick';
 import ampliacionChacras1 from "../../img/ampliacionChacras1.jpeg"
 import ampliacionChacras2 from "../../img/ampliacionChacras2.jpeg"
 import ampliacionChacras3 from "../../img/ampliacionChacras3.jpeg"
@@ -28,10 +30,31 @@ import obraBotter3 from "../../img/obraBotter3.jpeg"
 import obraBotter4 from "../../img/obraBotter4.jpeg"
 import obraBotter5 from "../../img/obraBotter5.jpeg"
 
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "#0C1444" }}
+            onClick={onClick}
+        />
+    );
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "#0C1444" }}
+            onClick={onClick}
+        />
+    );
+}
 function PortafolioCards() {
     const portafolioCards = [
         {
-            title: "Casa corralitos.",
+            title: "Corralitos.",
             descripcion: "Sistema constructivo: EPS.",
             img1: casaCorralito1,
             img2: casaCorralito2,
@@ -91,11 +114,39 @@ function PortafolioCards() {
         }
     ]
 
+    const sliderSettings = {
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        swipeToSlide: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
+
     return (
-        <>
+
+        <div className="portafolioContainer ">
             {portafolioCards.map((proyecto, index) => (
-                <CardGroup key={index} className={`d-flex flex-row overflow-x-scroll flex-nowrap ${proyecto.background}`} >
-                    <Card className={`portafolioCard ${proyecto.background}`}>
+                <div key={index} className={`portafolioProject d-flex ${proyecto.background}`}>
+                    <Card className={`portafolioCard `}>
                         <Card.Body >
                             <Card.Title className={`cardTitle ${proyecto.textUno}`}>{proyecto.title}</Card.Title>
                             <Card.Text className={`cardText  ${proyecto.textDos}`}>
@@ -103,27 +154,43 @@ function PortafolioCards() {
                             </Card.Text>
                         </Card.Body >
                     </Card>
-                    <Card className={`portafolioCard ${proyecto.background}`}>
-                        <Card.Img variant="top" src={proyecto.img1} />
-                    </Card>
-                    <Card className={`portafolioCard ${proyecto.background}`}>
-                        <Card.Img variant="top" src={proyecto.img2} />
-                    </Card>
-                    <Card className={`portafolioCard ${proyecto.background}`}>
-                        <Card.Img variant="top" src={proyecto.img3} />
-                    </Card>
-                    <Card className={`portafolioCard ${proyecto.background}`}>
-                        <Card.Img variant="top" src={proyecto.img4} />
-                    </Card>
-                    {proyecto.img5 ? (<Card className={`portafolioCard ${proyecto.background}`}>
-                        <Card.Img variant="top" src={proyecto.img5} />
-                    </Card>) : null}
-                    {proyecto.img6 ? (<Card className={`portafolioCard ${proyecto.background}`}>
-                        <Card.Img variant="top" src={proyecto.img6} />
-                    </Card>) : null}
-                </CardGroup>
+                    <div>
+                        <Slider {...sliderSettings}>
+                            <div>
+                                <Card className={`portafolioCard ${proyecto.background}`}>
+                                    <Card.Img variant="top" src={proyecto.img1} />
+                                </Card>
+                            </div>
+                            <div>
+                                <Card className={`portafolioCard ${proyecto.background}`}>
+                                    <Card.Img variant="top" src={proyecto.img2} />
+                                </Card>
+                            </div>
+                            <div>
+                                <Card className={`portafolioCard ${proyecto.background}`}>
+                                    <Card.Img variant="top" src={proyecto.img3} />
+                                </Card>
+                            </div>
+                            <div>
+                                <Card className={`portafolioCard ${proyecto.background}`}>
+                                    <Card.Img variant="top" src={proyecto.img4} />
+                                </Card>
+                            </div>
+                            {proyecto.img5 ? (<div>
+                                <Card className={`portafolioCard ${proyecto.background}`}>
+                                    <Card.Img variant="top" src={proyecto.img5} />
+                                </Card>
+                            </div>) : null}
+                            {proyecto.img6 ? (<div>
+                                <Card className={`portafolioCard ${proyecto.background}`}>
+                                    <Card.Img variant="top" src={proyecto.img6} />
+                                </Card>
+                            </div>) : null}
+                        </Slider>
+                    </div>
+                </div>
             ))}
-        </>
+        </div>
     )
 }
 

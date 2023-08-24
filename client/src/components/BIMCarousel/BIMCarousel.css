@@ -69,6 +69,7 @@
     cursor: pointer;
 }
 
+
 @media screen and (max-width: 767px) {
     .carousel-card img {
         max-width: 50vw;

@@ -1,6 +1,8 @@
 #componentAboutAs {
     padding-top: 100px;
-    background-color: #ffffff;
+    background-image: url("../../img/aboutUsBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   #componentBimMethodology {
@@ -18,7 +20,9 @@
   
   #componentPortafolio {
     padding-top: 100px;
-    background-color: #0c1444;
+    background-image: url("../../img/portfolioBackgroundHome.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   #componentClients {

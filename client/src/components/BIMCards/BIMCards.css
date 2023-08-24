@@ -1,5 +1,18 @@
+.cardsTitle{
+    font-size: 2rem !important;
+    color: #0C1444 !important; 
+}
+
 .cardsText{
-    text-align: start;
+    text-align: justify;
+    margin-bottom: 0px;
+    font-size: 1.25rem;
+    color: #747474;
+}
+
+.cardsText p {
+    color: #0C1444 !important; 
+    font-size: 1.25rem !important;
 }
 
 .bimCards{

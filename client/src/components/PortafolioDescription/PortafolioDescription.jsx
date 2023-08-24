@@ -7,8 +7,8 @@ import React from 'react'
 function PortafolioDescription() {
     return (
         <Card className="text-white">
-            <Card.Img src={Background} alt="Portafolio image" />
-            <Card.ImgOverlay className="d-flex align-content-around flex-wrap justify-content-center " >
+            <Card.Img src={Background} alt="Portafolio image" className="cardImageBackground"/>
+            <Card.ImgOverlay className="d-flex align-content-around flex-wrap justify-content-center" >
                 <Card.Title className="portafolioTitle">Portafolio</Card.Title>
                 <Card.Text className="portafolioDescription">
                     Nuestros proyectos realizados son el reflejo de nuestros servicios. todos ellos comparten el uso de herramientas
