@@ -7,9 +7,15 @@
 }
 
 .textBIMContainer{
-    max-width: 80vw;
     color: white;
     text-align: justify;
     margin: 7rem;
     font-size: 1.25rem;
+}
+
+@media screen and (max-width: 767px) {
+    .textBIMContainer{
+        margin: 2rem;
+    }
+    
 }

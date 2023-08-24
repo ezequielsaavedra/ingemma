@@ -17,7 +17,7 @@ function BIMPreguntasFrecuentes() {
                 <Col sm={2} >
                     <img src={logoPreguntas} alt="logo pregunta" />
                 </Col>
-                <Col sm={9} className="mt-3">
+                <Col sm={9}>
                     <h2  className="bimPreguntasTitle">¿Qué es el modelo BIM?</h2>
                     <p className="bimPreguntasText"> Se define como «metodología de trabajo colaborativo para la gestión de proyectos de edificación
                         u obra civil a través de una maqueta digital». Una maqueta 3D conformada por una gran base
@@ -29,7 +29,7 @@ function BIMPreguntasFrecuentes() {
             <Col sm={2}>
                     <img src={logoPreguntas} alt="logo pregunta" />
                 </Col>
-                <Col sm={9} className="mt-3">
+                <Col sm={9} >
                     <h2 className="bimPreguntasTitle">¿Cómo funciona?</h2>
                     <p className="bimPreguntasText">No se trata de una herramienta digital al uso, de uno o varios programas con tecnología 3D.
                         El sistema BIM propone un modelo integral de trabajo a través del modelado y gestión
@@ -43,7 +43,7 @@ function BIMPreguntasFrecuentes() {
             <Col sm={2}>
                     <img src={logoPreguntas} alt="logo pregunta" />
                 </Col>
-                <Col sm={9} className="mt-3">
+                <Col sm={9} >
                     <h2  className="bimPreguntasTitle">¿Qué beneficios aporta al cliente?</h2>
                     <p className="bimPreguntasText">En primer lugar, información y transparencia. El primer beneficiado del modelo colaborativo BIM
                         es el cliente, que accede a través de la plataforma a toda la información en tiempo real. Ofrece
@@ -56,7 +56,7 @@ function BIMPreguntasFrecuentes() {
             <Col sm={2}>
                     <img src={logoPreguntas} alt="logo pregunta" />
                 </Col>
-                <Col sm={9} className="mt-3">
+                <Col sm={9}>
                     <h2  className="bimPreguntasTitle">¿Qué problemas pueden presentarse?</h2>
                     <p className="bimPreguntasText">Hablamos de un modelo en implantación, corrección y evolución, por lo que todos los agentes implicados están en fase de aprendizaje. Hay un común acuerdo en la importancia de la figura
                         del líder, que desde una perspectiva global gobierne todos los procesos de la plataforma de trabajo. También requiere del fuerte compromiso de todos los miembros del proyecto, ya que exige
@@ -67,7 +67,7 @@ function BIMPreguntasFrecuentes() {
             <Col sm={2} >
                     <img src={logoPreguntas} alt="logo pregunta" />
                 </Col>
-                <Col sm={9} className="mt-3">
+                <Col sm={9}>
                     <h2 className="bimPreguntasTitle">¿Por qué debo adoptarlo?</h2>
                     <p className="bimPreguntasText">Hablar de BIM no es hablar de un hipotético futuro. Si bien es cierto que aún hoy es una realidad
                         en construcción, y que de su evolución dependerá si se convierte en un estándar generalizado
