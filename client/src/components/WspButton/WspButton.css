@@ -1,11 +1,8 @@
 .wspButton{
-    border-radius: 50%;
     height: 64px;
     width: 64px;
     position: fixed;
     z-index: 9999;
-    bottom: 3.5vh;
-    right: 3.5vw;
 }
 
 .icon{
@@ -14,3 +11,26 @@
     border-radius: 50%;
 }
 
+@media screen and (max-width: 767px) {
+    .wspButton{
+        bottom: 4vh;
+        right: 6vw;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .wspButton{
+        bottom: 4vh;
+        right: 3.5vw;
+    }
+    
+}
+
+@media screen and (min-width: 1201px) {
+    .wspButton{
+        bottom: 3.5vh;
+        right: 3.5vw;
+    }
+    
+}

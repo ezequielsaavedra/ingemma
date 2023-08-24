@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'MavenPro';
   src: url('../src/fonts/static/MavenPro-SemiBold.ttf') format('truetype');
@@ -9,8 +8,10 @@ body {
   font-family: "MavenPro";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 100%;
-  min-width: 100%
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 code {
@@ -35,5 +36,3 @@ code {
 ::-webkit-scrollbar-track {
   background: #f9f9f9;
 }
-
-

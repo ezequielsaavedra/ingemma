@@ -20,5 +20,6 @@
 
 .footerBrand{
     margin-top: 1rem;
+    cursor:default !important;
 }
 

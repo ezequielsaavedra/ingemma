@@ -12,12 +12,14 @@ function Services() {
   return (
     <Container className="containerServices">
       <h2>Servicios</h2>
+      <div className="detalleServices">
       <p className="detalleServices1">
         En Ingemma, ofrecemos una amplia gama de servicios especializados y
         multidisciplinarios para satisfacer aquellas necesidades de nuestros
         clientes en los campos de Oil & Gas, Civil, Metalmecánica y
         Arquitectura.
       </p>
+      </div>
       <Row className="rowServices">
         <Col sm={12} md={6} xl={3} className="colServices">
           <img src={serviceOilAndGas} alt="Servicio Oil & Gas" />

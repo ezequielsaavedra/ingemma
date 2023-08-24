@@ -16,16 +16,18 @@ function Portafolio() {
   return (
     <Container className="containerPortafolio">
       <Row className="rowPortafolio1">
-        <h2>Portafolio</h2>
-        <p>
-          Nuestros proyectos construidos son el reflejo de la calidad de
-          nuestros servicios en Ingemma. Todos ellos comparten el uso de la
-          Metodología BIM, que nos permite secuenciar el proceso desde el diseño
-          hasta la construcción, pasando por la ingeniería y la fabricación.
-          Nuestros proyectos son multidisciplinares y están categorizados según
-          el servicio y sector al que se dirigen, brindando soluciones
-          integrales y personalizadas.
-        </p>
+        <Col>
+          <h2>Portafolio</h2>
+          <p>
+            Nuestros proyectos construidos son el reflejo de la calidad de
+            nuestros servicios en Ingemma. Todos ellos comparten el uso de la
+            Metodología BIM, que nos permite secuenciar el proceso desde el diseño
+            hasta la construcción, pasando por la ingeniería y la fabricación.
+            Nuestros proyectos son multidisciplinares y están categorizados según
+            el servicio y sector al que se dirigen, brindando soluciones
+            integrales y personalizadas.
+          </p>
+        </Col>
       </Row>
       <Row className="rowPortafolio2">
         <Col sm={10} md={4} xl={3}>
@@ -108,7 +110,7 @@ function Portafolio() {
         </Col>
       </Row>
       <Link to="/portafolio">
-      <input className="botonVerMas" type="button" value="Ver más"></input>
+        <input className="botonVerMas" type="button" value="Ver más"></input>
       </Link>
     </Container>
   );

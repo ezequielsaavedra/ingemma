@@ -12,6 +12,11 @@
 .containerServices p {
   color: #575656;
   font-size: 1.5rem;
+
+}
+
+.detalleServices {
+  text-align: justify;
 }
 
 .detalleServices1 {

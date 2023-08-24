@@ -64,7 +64,7 @@ const BIMCarousel = () => {
             <div className="carousel-indicators carousel-indicators-BIM">
                 <div className="carousel-arrows">
                     <div className="arrow-left" onClick={handlePrevCard}>
-                        <FontAwesomeIcon icon={faArrowLeft} size="xl" style={{ color: "#000000" }} />
+                        <FontAwesomeIcon icon={faArrowLeft} size="xl" style={{ color: "#7b7b9b" }} />
                     </div>
                 </div>
                 {cards.map((_, index) => (
@@ -76,7 +76,7 @@ const BIMCarousel = () => {
                 ))}
                 <div className="carousel-arrows">
                     <div className="arrow-right" onClick={handleNextCard}>
-                        <FontAwesomeIcon icon={faArrowRight} size="xl" style={{ color: "#000000" }} />
+                        <FontAwesomeIcon icon={faArrowRight} size="xl" style={{ color: "#7b7b9b" }} />
                     </div>
                 </div>
             </div>
