@@ -1,10 +1,12 @@
 .bimPreguntasTitle{
     color: #0C1444;
     text-align: start;
+    margin: 2rem;
 }
 
 .bimPreguntasText{
     text-align: justify;
     color: #747474;
     font-size: 1.25rem;
+    margin: 2rem;
 }

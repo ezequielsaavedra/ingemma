@@ -22,6 +22,7 @@
 .colAboutAs1{
   text-align: justify;
   hyphens: auto;
+  margin: 2rem;
 }
 
 .detalleAboutAs1 {
@@ -40,6 +41,7 @@
   display: flex;
   justify-content: space-between;
   vertical-align: middle;
+  
 }
 
 .colAboutAs {
@@ -50,6 +52,7 @@
   bottom: -120px;
   padding-top: 10px;
   padding-bottom: 20px;
+  
 }
 
 .colAboutAs img {
@@ -70,6 +73,7 @@
   color: #575656;
   font-size: 1.125rem;
   text-align: justify;
+  margin: 2rem;
 }
 
 .colAboutAs ul {

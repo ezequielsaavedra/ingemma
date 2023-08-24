@@ -18,10 +18,10 @@
 }
 
 .rowPortafolio1 p {
-  margin-bottom: 50px;
   font-size: 1.5rem;
   color: #ffff;
   text-align: justify;
+  margin: 2rem;
 }
 
 .rowPortafolio2 {
