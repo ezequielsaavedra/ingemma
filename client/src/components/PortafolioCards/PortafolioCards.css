@@ -1,8 +1,8 @@
-.portafolioContainer{
+.portafolioContainer {
     max-width: 100%;
 }
 
-.portafolioProject{
+.portafolioProject {
     height: 50vh;
 }
 
@@ -13,34 +13,34 @@
     hyphens: auto;
 }
 
-.portafolioCard img{
+.portafolioCard img {
     width: 20vw;
     height: 40vh;
 }
 
-.slick-slider{
+.slick-slider {
     max-width: 71vw;
 }
 
-.slick-list{
+.slick-list {
     max-height: 45vh;
 }
 
-.slick-arrow{
-    border-radius: 50%; 
-} 
+.slick-arrow {
+    border-radius: 50%;
+}
 
 .blue {
-    background-color: rgb(12, 20, 68, .9) ;
+    background-color: rgb(12, 20, 68, .9);
 }
 
 .blue div {
-    background-color: rgb(12, 20, 68, 0) ;
+    background-color: rgb(12, 20, 68, 0);
 }
 
 .textWhite {
     color: white;
-    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
 .textGray {
@@ -49,28 +49,36 @@
 
 .textBlue {
     color: #0C1444;
-    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cardTitle {
+    hyphens: none;
 }
 
 @media screen and (max-width: 480px) {
     .cardText {
         font-size: 14px;
     }
+
     .cardTitle {
         font-size: 16px;
     }
-    .portafolioProject{
+
+    .portafolioProject {
         height: 30vh;
     }
-    
-    .slick-slider{
+
+    .slick-slider {
         max-width: 50vw;
     }
+
     .portafolioCard {
         margin: .8rem;
         width: 35vw;
     }
-    .portafolioCard img{
+
+    .portafolioCard img {
         width: 40vw;
         height: 25vh;
     }
@@ -80,20 +88,24 @@
     .cardText {
         font-size: 14px;
     }
+
     .cardTitle {
         font-size: 16px;
     }
-    .portafolioProject{
+
+    .portafolioProject {
         height: 40vh;
     }
-    
-    .slick-slider{
+
+    .slick-slider {
         max-width: 70vw;
     }
+
     .portafolioCard {
         width: 20vw;
     }
-    .portafolioCard img{
+
+    .portafolioCard img {
         width: 25vw;
         height: 30vh;
     }
@@ -103,20 +115,24 @@
     .cardText {
         font-size: 14px;
     }
+
     .cardTitle {
         font-size: 16px;
     }
-    .portafolioProject{
+
+    .portafolioProject {
         height: 40vh;
     }
-    
-    .slick-slider{
+
+    .slick-slider {
         max-width: 70vw;
     }
+
     .portafolioCard {
         width: 20vw;
     }
-    .portafolioCard img{
+
+    .portafolioCard img {
         width: 25vw;
         height: 30vh;
     }

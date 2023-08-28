@@ -4,6 +4,7 @@
 .bimTitle{
     color: #DC0C62 !important;
     font-size: 4rem;
+    hyphens: none;
 }
 
 .textBIMContainer{

@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <div className="appContainer">
+        <div className="appContainer lh-sm">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portafolio" element={<PortafolioScreen />} />

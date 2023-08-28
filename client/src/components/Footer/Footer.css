@@ -10,6 +10,7 @@
 .footerText{
     color: #ffff;
     background-color: #0C1444;
+    text-align: start;
 }
 
 .footerIcon{

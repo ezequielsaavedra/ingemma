@@ -5,14 +5,11 @@
 .containerServices h2 {
   margin-bottom: 50px;
   color: #0c1444;
-  font-size: 3.75rem;
   text-shadow: 1px 2px 2px gray;
 }
 
 .containerServices p {
   color: #575656;
-  font-size: 1.5rem;
-
 }
 
 .detalleServices {
@@ -47,8 +44,8 @@
 .colServices h3 {
   color: #0c1444;
   padding-top: 80px;
-  font-size: 2.5rem;
   text-shadow: 1px 2px 2px gray;
+  hyphens: none;
 }
 
 .colServices ul {
@@ -58,6 +55,51 @@
 
 .colServices ul li {
   color: #575656;
-  font-size: 1.25rem;
   text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .containerServices h2 {
+    font-size: 2rem;
+  }
+  .containerServices p {
+    font-size: 1rem;
+  }
+  .colServices h3 {
+    font-size: 2rem;
+  }
+  .colServices ul li {
+    font-size: 1rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .containerServices h2 {
+    font-size: 3rem;
+  }
+  .containerServices p {
+    font-size: 1.25rem;
+  }
+  .colServices h3 {
+    font-size: 3rem;
+  }
+  .colServices ul li {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .containerServices h2 {
+    font-size: 4rem;
+  }
+  .containerServices p {
+    font-size: 1.5rem;
+  }
+  .colServices h3 {
+    font-size: 3rem;
+  }
+  .colServices ul li {
+    font-size: 1.25rem;
+  }
 }

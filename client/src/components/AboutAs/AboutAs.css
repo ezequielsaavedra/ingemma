@@ -3,20 +3,16 @@
   padding: 10px 0px 10px 0px;
 }
 
-.rowAboutAs1 {
-  margin-bottom: 100px;
-}
 
 .rowAboutAs1 h2 {
   margin-bottom: 50px;
-  font-size: 3.75rem;
   color: #0c1444;
   text-shadow: 1px 2px 2px gray;
+  hyphens: none;
 }
 
 .rowAboutAs1 p {
   color: #575656;
-  font-size: 1.5rem;
 }
 
 .colAboutAs1{
@@ -65,15 +61,15 @@
   position: relative;
   top: -20px;
   color: #9e1062;
-  font-size: 2.25rem;
   text-shadow: 1px 2px 2px gray;
+  hyphens: none;
 }
 
 .colAboutAs p {
   color: #575656;
-  font-size: 1.125rem;
   text-align: justify;
   margin: 2rem;
+  line-height: 1;
 }
 
 .colAboutAs ul {
@@ -85,4 +81,50 @@
   color: #575656;
   font-size: 1.125rem;
   text-align: start;
+}
+
+@media screen and (max-width: 767px) {
+  .rowAboutAs1 h2 {
+    font-size: 2rem;
+  }
+  .rowAboutAs1 p {
+    font-size: 1rem;
+  }
+  .colAboutAs h3 {
+    font-size: 2rem;
+  }
+  .colAboutAs p {
+    font-size: 1rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .rowAboutAs1 h2 {
+    font-size: 3rem;
+  }
+  .rowAboutAs1 p {
+    font-size: 1.25rem;
+  }
+  .colAboutAs h3 {
+    font-size: 3rem;
+  }
+  .colAboutAs p {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .rowAboutAs1 h2 {
+    font-size: 4rem;
+  }
+  .rowAboutAs1 p {
+    font-size: 1.5rem;
+  }
+  .colAboutAs h3 {
+    font-size: 3rem;
+  }
+  .colAboutAs p {
+    font-size: 1.25rem;
+  }
 }

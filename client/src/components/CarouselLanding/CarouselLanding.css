@@ -6,6 +6,7 @@
 .carouselTextContainer {
     width: 40%;
     text-align: left;
+    hyphens: none;
 }
 
 .carousel-indicators button {
@@ -17,6 +18,10 @@
 .carousel-indicators .active {
     background-color: #ffff !important;
     opacity: 1 !important;
+}
+
+.carouselText{
+    background-color: rgb(144, 145, 145, 0.1);
 }
 
 @media screen and (max-width: 767px) {
@@ -48,7 +53,7 @@
 
 @media screen and (min-width: 1201px) {
     .carouselText {
-        font-size: 3.4rem;
+        font-size: 4rem;
         margin-bottom: 3rem;
     }
 

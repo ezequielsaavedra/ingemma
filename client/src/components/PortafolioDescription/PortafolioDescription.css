@@ -2,6 +2,7 @@
     color: #DC0C62;
     font-size: 4rem;
     min-width: 100%;
+    hyphens: none;
 }
 
 .card {
