@@ -1,9 +1,9 @@
-.cardsTitle{
+.cardsTitle {
     font-size: 2rem !important;
-    color: #0C1444 !important; 
+    color: #0C1444 !important;
 }
 
-.cardsText{
+.cardsText {
     text-align: justify;
     margin-bottom: 0px;
     font-size: 1.25rem;
@@ -11,13 +11,43 @@
 }
 
 .cardsText p {
-    color: #0C1444 !important; 
+    color: #0C1444 !important;
     font-size: 1.25rem !important;
 }
 
-.bimCards{
+.bimCards {
     height: 27rem;
     width: 27rem;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     background-color: rgb(240, 235, 235);
+}
+
+@media screen and (max-width: 767px) {
+    .rowAboutAs1 h2 {
+        font-size: 2rem;
+    }
+
+    .rowAboutAs1 p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .rowAboutAs1 h2 {
+        font-size: 3rem;
+    }
+
+    .rowAboutAs1 p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .rowAboutAs1 h2 {
+        font-size: 4rem;
+    }
+
+    .rowAboutAs1 p {
+        font-size: 1.5rem;
+    }
 }

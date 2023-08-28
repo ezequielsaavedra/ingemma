@@ -1,7 +1,6 @@
 import "./Header.css"
 
 import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -15,14 +14,12 @@ function Header() {
             {['xl'].map((expand) => (
                 <Navbar key={expand} expand={expand} className="d-flex align-items-end" sticky="top" bg="light" data-bs-theme="light" >
                     <Container fluid>
-                        <Link to="/">
-                            <Navbar.Brand href="#" className="headerBrand">
+                            <Navbar.Brand href="#inicio" className="headerBrand">
                                 <img src={logo} alt="logo"
                                     width="174"
                                     height="47"
                                     className="d-inline-block align-top" />
                             </Navbar.Brand>
-                        </Link>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}

@@ -12,13 +12,12 @@
 
 .rowPortafolio1 h2 {
   margin-bottom: 50px;
-  font-size: 3.75rem;
   color: #dc0c62;
   text-shadow: 1px 2px 2px black;
+  hyphens: none;
 }
 
 .rowPortafolio1 p {
-  font-size: 1.5rem;
   color: #ffff;
   text-align: justify;
   margin: 2rem;
@@ -38,7 +37,34 @@
   color: white;
   background-color: transparent;
   padding: 10px 80px 10px 80px;
-  /* opacity: 0.5; */
   border: 2px solid white;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .rowPortafolio1 h2 {
+    font-size: 2rem;
+  }
+  .rowPortafolio1 p {
+    font-size: 1rem;
+  }  
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .rowPortafolio1 h2 {
+    font-size: 3rem;
+  }
+  .rowPortafolio1 p {
+    font-size: 1.25rem;
+  }  
+}
+
+@media screen and (min-width: 1201px) {
+  .rowPortafolio1 h2 {
+    font-size: 4rem;
+  }
+  .rowPortafolio1 p {
+    font-size: 1.5rem;
+  }  
 }
