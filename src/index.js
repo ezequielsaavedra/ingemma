@@ -1,38 +1,36 @@
-const express = require("express");
-const nodemailer = require("nodemailer");
-const dotenv = require("dotenv");
+import express from "express";
+import nodemailer from "nodemailer";
+import dotenv from "dotenv";
+import cors from "cors"
 
 const app = express();
 dotenv.config();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(
+  cors({ origin: "https://ingemma.com.ar/", methods: ["GET", "POST", "PUT"] })
+);
 
-const config = {
-  nodemailerService: process.env.NODEMAILER_SERVICE,
-  nodemailerPort: process.env.NODEMAILER_PORT,
-  nodemailerUser: process.env.NODEMAILER_USER,
-  nodemailerPassword: process.env.NODEMAILER_PASSWORD,
-};
+app.post("/api/email", async (req, res) => {
 
-app.post("/api/form", async (req, res) => {
   nodemailer.createTestAccount(async (err, account) => {
     var transporter = nodemailer.createTransport({
-      service: config.nodemailerService,
-      port: config.nodemailerPort,
+      service: process.env.NODEMAILER_SERVICE,
+      port: process.env.NODEMAILER_PORT,
       auth: {
-        user: config.nodemailerUser,
-        pass: config.nodemailerPassword,
+        user: process.env.NODEMAILER_USER,
+        pass: process.env.NODEMAILER_PASSWORD,
       },
     });
 
-    transporter.sendMail(
+  transporter.sendMail(
       {
-        from: config.nodemailerUser,
-        to: config.nodemailerUser,
-        subject: `Consulta ${req.body.name}`,
+        from: process.env.NODEMAILER_USER,
+        to: process.env.NODEMAILER_USER,
+        subject: `Consulta enviada por: ${req.body.name}`,
         html: `
-        <div>   
+        <div>
         <h1>Datos de la consulta:</h1>
         <p>Nombre y apellido: ${req.body.name}</p>
         <p>Email: ${req.body.email}</p>

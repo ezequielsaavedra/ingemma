@@ -18,7 +18,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      await axios.post("/api/form", {
+      await axios.post("/api/email", {
         name,
         email,
         consult,

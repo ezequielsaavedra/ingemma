@@ -56,15 +56,12 @@ function Footer() {
             <Container fluid>
                 <Row >
                     <Col sm={2}>
-                        <p className="footerText" > Dirección: calle 1234 - Email: </p>
+                        <p className="footerText" > Email y telefono: </p>
                     </Col>
                     <Col sm={10}>
                         <Row>
                             <Col sm={10}>
-                                <p className="footerText" >alejandrogonzales@ingemma.com.ar - Teléfono: (+5411)2612513512 </p>
-                            </Col>
-                            <Col sm={10}>
-                                <p className="footerText">fernandopensa@ingemma.com.ar - Teléfono: (+5411)2612438830</p>
+                                <p className="footerText" >info@ingemma.com.ar - Teléfono: (+549)2612595581 </p>
                             </Col>
                         </Row>
                     </Col>
